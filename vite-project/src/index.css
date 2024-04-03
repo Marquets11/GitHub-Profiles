@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn-navbar {
+		@apply text-stone-600 font-extrabold hover:text-black;
+	}
+}
